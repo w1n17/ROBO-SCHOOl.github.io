@@ -1,0 +1,601 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,600;1,600&display=swap');
+
+header {
+  background-color: #141024;
+  display: flex;
+  justify-content: space-between;
+  color:#fff;
+  padding: 1% 5.5%;
+}
+
+header h1{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 1%;
+  font-size: 200%;
+}
+
+ul.header{
+  font-size: 130%;
+  display: inline-flex;
+  list-style: none;
+  gap:20%;
+  white-space: nowrap;
+  margin-top: 2%;
+  margin-right: 8%;;
+}
+
+main {
+  background-color: #fff;
+}
+
+.header,
+.main {
+  color: #fff;
+}
+
+
+.section_main{
+  background-color: #141024;
+  padding: 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  width: 100%s;
+  max-height: 1080px;
+  min-height: 750px;
+}
+
+.main2{
+  display: inline-flex;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  margin-top: 10%;
+}
+
+.main h1 {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  top: 344px;
+  left: 380px;
+  font-size: 70px;
+  text-align: left;
+  white-space: nowrap;
+  margin-top: -22%;
+  line-height: 112px;
+}
+
+.main h3 {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  width: 478px;
+  height: 64px;
+  top: 476px;
+  left: 380px;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 2%;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.main button{
+  width: 260px;
+  height: 79px;
+  top: 590px;
+  left: 380px;
+  border-radius: 10px;
+  gap: 10px;
+  background-color: #D52027;
+  color: #fff;
+  margin-top: 10%;
+  outline: none;
+  border: red ;
+  color: white;
+  padding: 10px 20px;
+  transition: transform .4s, background-color 0.3s;
+}
+
+
+.main button:hover{
+  transform: scale(1.1);
+  background-color: #FF0000;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+}
+
+
+.main button::first-line{
+  width: 152px;
+  height: 29px;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.women {
+  position: relative;
+  width: 55%;
+  margin-top: 20px;
+  margin-right: 8%;
+  margin-left: 2%;
+}
+
+
+.main3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section_robo{
+  background-color: #fff;
+  padding: 0 10% ;
+  display: flex;
+}
+
+.robo_school{
+  margin-top: 220px;
+  width: 891px;
+  height: 144px;
+  top: 1200px;
+  left: 380px;
+}
+
+
+.main3 p {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.main3 h1{
+  font-size: 70px;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 112px;
+  color:#D52027;
+}
+
+.main3 h2{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: #141024 70% ;
+}
+
+
+.card{
+  display: inline-flex;
+}
+
+.cards:not(:first-child) {
+  margin-left: 40px
+}
+
+section.after_course{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F9F9F9;
+  padding: 120px  10% 120px 10% ;
+  margin-top: 10%;
+}
+
+.course h1{
+  display: flex;
+  width: 682px;
+  height: 80px;
+  top: 1794px;
+  left: 380px;
+  white-space: nowrap;
+  font-family: "Jost", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #141024;
+}
+
+.courses h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  line-height: 38.4px;
+  font-size: 24px;
+  width: 170px;
+  height: 38px;
+  top: 1934px;
+  left: 380px;
+  color: #141024;
+}
+
+.courses h3{
+  display: flex;
+  width: 360px;
+  height: 87px;
+  top: 1992px;
+  left: 380px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  line-height: 28.8px;
+  font-size: 18px;
+  color: #141024B2 70%;
+}
+
+.courses h2 button{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  height: 24px;
+  width: 24px;
+  background-color: #F9F9F9;
+  margin-left: 10px;
+  border: solid 0px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba(20, 16, 36, 0.08);
+}
+.courses h2 div.int{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 16px;
+  font-weight: normal;
+  width: 251px;
+  height: 56px;
+  white-space: nowrap;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 5px rgba(20, 16, 36, 0.1);
+  margin-left: 10px;
+}
+
+.course1{
+  display: inline-flex;
+}
+
+.trainer{
+  padding: 120px 0% 120px 10%;
+}
+.trainer h1{
+  font-size: 50px;
+  font-family: "Jost", sans-serif;
+}
+.cards1 {
+  margin-top: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 4%;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  margin-left: 1%;
+}
+.slider-container .cards1 .teacher{
+  transform: translateX(0);
+}
+.cards1 .teacher img{
+  width: 360px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.cards1 .teacher h2{
+  margin: 20px 0 10px 0;
+  font-size: 24px;
+  font-family: "Jost", sans-serif;
+}
+.cards1 .teacher h3{
+  font-size: 18px;
+  opacity: 0.3;
+  margin-bottom: 20px;
+  font-family: "Jost", sans-serif;
+}
+.cards1 .teacher button{
+  background-color: white;
+  border: 0;
+  color: red;
+  display: flex;
+  justify-content: start;
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+  transition: all 400ms;
+}
+
+.trainer .slider-container{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.trainer .slider-container .nav-buttons{
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 40%;
+}
+.trainer .slider-container .nav-buttons button{
+  color: white;
+  border-radius: 50%;
+  position: static;
+  width: 33px;
+  height: 33px;
+  background-color: rgba(35, 11, 52, 1);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 400ms;
+}
+.cards1 .teacher button:hover{
+  box-shadow: 0 0 5px 10px rgba(20, 16, 36, 0.1);
+  background-color: #F9F9F9;
+  border-radius: 5px;
+}
+.trainer .slider-container .nav-buttons button:hover{
+  width: 44px;
+  height: 44px;
+}
+/*section price*/
+
+.price{
+  height: 640px;
+  padding: 120px 0% 120px 10%;
+}
+.price h1{
+  display: flex;
+  justify-content: start;
+  font-size: 50px;
+  font-family: "Jost", sans-serif;
+}
+.price .pocket{
+  padding-top: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 500px;
+  gap: 3%;
+}
+.price .pocket .pro{
+  border: 1px solid rgba(0,0,0,0.2);
+  width: 360px;
+  height: 460px;
+  border-radius: 20px;
+  transition: all 400ms;
+  justify-self: center;
+}
+.price .pocket h2{
+  margin: 40px 105px 63px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  width: 151px;
+  height: 48px;
+  font-family: "Jost", sans-serif;
+}
+.price .pocket h3{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "Jost", sans-serif;
+}
+.price .pocket .pro p{
+  margin-bottom: 42px;
+  display: flex;
+  justify-content: center;
+  word-break: break-all;
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+}
+
+.price .pocket button{
+  border-radius: 10px;
+  margin-bottom: 15%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 18px;
+  background-color: red;
+  width: 280px;
+  height: 79px;
+  border: 0;
+  color: white;
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+}
+.price .pocket .robo-{
+  border: 1px solid rgba(0,0,0,0.2);
+  width: 360px;
+  height: 460px;
+  border-radius: 20px;
+  transition: all 400ms;
+}
+.price .pocket .prog{
+  border: 1px solid rgba(0,0,0,0.2);
+  width: 360px;
+  height: 460px;
+  border-radius: 20px;
+  transition: all 400ms;
+}
+.price .pocket p{
+  margin-bottom: 61px;
+  display: flex;
+  justify-content: center;
+  word-break: break-all;
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+}
+/*section discount*/
+
+/*чтобы сделать %, нужно создать тег и дать этому тегу position: absolute а родителю position:relative (overflow: hidden)*/
+.discount{
+  width: 1160px;
+  background-color: red;
+  width: 100%;
+}
+.discount .back{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 144px;
+  padding: 120px 0% 120px 10%;
+}
+.discount h1{
+  font-family: "Jost", sans-serif;
+  color: white;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.discount h2{
+  font-family: "Jost", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+.discount .text{
+  display: flex;
+  flex-direction: column;
+}
+.discount .in{
+  display: flex;
+  flex-direction: column;
+}
+
+.discount input{
+  width: 500px;
+  height: 64px;
+  margin: 10px 0;
+  border: solid rgba(0,0,0,0.0);
+  border-radius: 5px;
+  outline: none;
+}
+.discount input::placeholder{
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  opacity: 0.7;
+  padding: 19px 181px 19px 20px;
+}
+.discount input[type="text"]
+{
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+}
+.discount input[type="tel"]
+{
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+}
+.discount input[type="email"]
+{
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+}
+.discount button{
+  width: 500px;
+  height: 64px;
+  background-color: #141024;
+  font-size: 18px;
+  color: white;
+  font-family: "Jost", sans-serif;
+  border: 0;
+  border-radius: 5px;
+  transition: all 800ms;
+}
+.discount ’£:hover{
+  background-color: white;
+  color: #141024;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*footer*/
+footer{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: #141024;
+  height: 159px;
+  width: 100%;
+  gap: 50%;
+}
+footer .footer_text{
+ color: white;
+}
+footer .footer_text h1{
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+}
+footer .footer_text h3{
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  opacity: 0.7;
+}
+footer .number h1{
+  font-size: 30px;
+  font-family: "Jost", sans-serif;
+  color: white;
+}
+.price .pocket .pro:hover{
+  padding: 18px 4px;
+  color: white;
+  background-color: #141024;
+}
+.price .pocket .robo-:hover{
+  padding: 18px 4px;
+  color: white;
+  background-color: #141024;
+}
+.price .pocket .prog:hover{
+  padding: 18px 4px;
+  color: white;
+  background-color: #141024;
+}
